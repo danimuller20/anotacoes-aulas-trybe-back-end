@@ -897,9 +897,7 @@ DELIMITER ;
 -- Como usar
 
 SELECT QuantityFilmsByCategory('Action');
-```
-
-
+``
 ## Criar reações dinâmicas com TRIGGERS
 
 ## Principais tipos de dados do MySQL

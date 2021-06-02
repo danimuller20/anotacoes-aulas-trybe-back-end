@@ -284,6 +284,14 @@ USE nome_do_banco_de_dados;
 CREATE TABLE nome_para_nova_tabela LIKE tabela_a_ser_clonada;
 ```
 
+Copiar dados dados para as tabelas
+```sql
+CREATE TABLE nome_para_nova_tabela LIKE tabela_a_ser_clonada;
+INSERT INTO nova_tabela (SELECT * FROM tabela_dos_dados_a_ser_copiada);
+
+INSERT INTO nova_tabela (primeira_coluna, segunda_coluna) (SELECT primeira_coluna, segunda_coluna FROM tabela_dos_dados_a_ser_copiada); 
+```
+
 **Lidar com VIEWs;**
 O que a view permite:
 
