@@ -277,28 +277,3 @@ Dessa forma, qualquer pessoa que for utilizar seu script vai ter certeza de como
 * ```npm install -D <nome do pacote>```: É semelhante ao comando anterior. Baixa o pacote do registro do NPM, porém o adiciona ao objeto ```devDependencies``` do ```package.```, indicando que o pacote em questão não é necessário para executar a aplicação, mas é necessário para desenvolvimento, ou seja, para alterar o código daquela aplicação. Isso é muito útil ao colocar a aplicação no ar, pois pacotes marcados como ```devDependencies``` podem ser ignorados, já que vamos apenas executar a aplicação, e não modificá-la.
 
 * ``` npm install```: Baixa e instala todos os pacotes listados nos objetos de ```dependencies``` e ```devDependencies``` do ```package.json```. Sempre deve ser executado ao clonar o repositório de um pacote para garantir que todas as dependências desse pacote estão instaladas.
-
-### Criando um script simples
-
-#### Criando o pacote Node.js
-
-```js
-```
-
-```js
-```
-
-```js
-```
-
-```js
-```
-
-```js
-```
-
-```js
-```
-
-```js
-```
