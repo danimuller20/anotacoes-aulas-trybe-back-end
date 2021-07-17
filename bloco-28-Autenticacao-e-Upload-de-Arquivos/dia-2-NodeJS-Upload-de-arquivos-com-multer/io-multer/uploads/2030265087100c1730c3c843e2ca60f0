@@ -1,0 +1,5 @@
+cd ..
+mkdir send-files
+cd send-files
+npm init -y
+npm i axios form-data
